@@ -1,0 +1,48 @@
+{
+  "workData": [
+    {
+      "id": "saas-crm",
+      "image": "/images/work/crm-es.jpg",
+      "localizedImages": {
+        "en": "/images/work/crm-en.jpg",
+        "es": "/images/work/crm-es.jpg"
+      },
+      "title": "Sistema CRM SaaS (Full-Stack)",
+      "description": "Solución diseñada para centralizar operaciones comerciales mediante una arquitectura desacoplada y de baja latencia.",
+      "features": [
+        {
+          "title": "Frontend (Next.js)",
+          "description": "Interfaz responsiva con rutas protegidas para el Login y un Dashboard interactivo de métricas."
+        },
+        {
+          "title": "Backend (Go)",
+          "description": "API de alto rendimiento encargada de la autenticación, lógica de negocio y gestión de Usuarios."
+        },
+        {
+          "title": "Base de Datos (PostgreSQL)",
+          "description": "Modelo relacional estructurado para garantizar la integridad en el historial y datos de Clientes."
+        }
+      ],
+      "translations": {
+        "en": {
+          "title": "Full-Stack SaaS CRM System",
+          "description": "A full-stack solution that centralizes business operations through a decoupled, low-latency architecture.",
+          "features": [
+            { "title": "Frontend (Next.js)", "description": "Responsive interface with protected login routes and an interactive metrics dashboard." },
+            { "title": "Backend (Go)", "description": "High-performance API for authentication, business logic, and user management." },
+            { "title": "Database (PostgreSQL)", "description": "Relational model that preserves the integrity of customer data and history." }
+          ]
+        },
+        "es": {
+          "title": "Sistema CRM SaaS (Full-Stack)",
+          "description": "Solución diseñada para centralizar las operaciones comerciales mediante una arquitectura desacoplada y de baja latencia.",
+          "features": [
+            { "title": "Frontend (Next.js)", "description": "Interfaz responsiva con rutas protegidas para el inicio de sesión y un panel de control interactivo con métricas." },
+            { "title": "Backend (Go)", "description": "API de alto rendimiento para autenticación, lógica de negocio y gestión de usuarios." },
+            { "title": "Base de Datos (PostgreSQL)", "description": "Modelo relacional que garantiza la integridad del historial y los datos de clientes." }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "contactBar": {
+    "contactItems": [
+      {
+        "type": "email",
+        "label": "sebasbarona@gmail.com",
+        "icon": "/images/icon/mail-icon.svg",
+        "link": "mailto:sebasbarona@gmail.com"
+      },
+      {
+        "type": "phone",
+        "label": "+57 320 6416169",
+        "icon": "/images/icon/call-icon.svg",
+        "link": "tel:+573206416169"
+      },
+      {
+        "type": "website",
+        "label": "sebastian-barona.vercel.app",
+        "icon": "/images/icon/web-icon.svg",
+        "link": "https://sebastian-barona.vercel.app/"
+      }
+    ],
+    "socialItems": [
+      {
+        "platform": "linkedin",
+        "icon": "/images/icon/linkedin-icon.svg",
+        "link": "https://www.linkedin.com/in/sebasti%C3%A1n-barona-alzate/"
+      }
+    ]
+  },
+  "educationData": {
+    "education": [
+      {
+        "title": "Software Engineering (2021 - Present)",
+        "description": "Currently pursuing a Software Engineering degree at Universidad Cooperativa de Colombia, focusing on software architecture, systems design, databases, and modern development practices.",
+        "titleEs": "Ingeniería de Software (2021 - Actualidad)",
+        "descriptionEs": "Actualmente curso Ingeniería de Software en la Universidad Cooperativa de Colombia, con enfoque en arquitectura de software, diseño de sistemas, bases de datos y prácticas modernas de desarrollo."
+      },
+      {
+        "title": "Mobile Application Development Diploma (2018)",
+        "description": "Diploma completed at Universidad EAFIT, focused on mobile application development, user experience, and cross-platform technologies.",
+        "titleEs": "Diplomado en Desarrollo de Aplicaciones Móviles (2018)",
+        "descriptionEs": "Diplomado realizado en la Universidad EAFIT, enfocado en desarrollo de aplicaciones móviles, experiencia de usuario y tecnologías multiplataforma."
+      },
+      {
+        "title": "Software Programming Technologist (2011 - 2012)",
+        "description": "Graduated from SENA with specialization in Software Programming and SQL Database Analysis & Design, building strong foundations in software engineering and database management.",
+        "titleEs": "Tecnólogo en Programación de Software (2011 - 2012)",
+        "descriptionEs": "Graduado del SENA con especialización en programación de software y análisis y diseño de bases de datos SQL, con sólidas bases en ingeniería de software y gestión de datos."
+      }
+    ],
+    "skills": [
+      {
+        "name": "React",
+        "nameEs": "React",
+        "icon": "/images/home/education-skill/react-icon.png",
+        "rating": 4
+      },
+      {
+        "name": "Node.js",
+        "nameEs": "Node.js",
+        "icon": "/images/home/education-skill/nodejs-icon.svg",
+        "rating": 4
+      },
+      {
+        "name": "Go",
+        "nameEs": "Go",
+        "icon": "/images/home/education-skill/Golang.png",
+        "rating": 3
+      },
+      {
+        "name": "Laravel",
+        "nameEs": "Laravel",
+        "icon": "/images/home/education-skill/laravel-iconss.png",
+        "rating": 4
+      },
+      {
+        "name": "Python",
+        "nameEs": "Python",
+        "icon": "/images/home/education-skill/python-icon.png",
+        "rating": 4
+      },
+      {
+        "name": "AWS",
+        "nameEs": "AWS",
+        "icon": "/images/home/education-skill/aws-icon.png",
+        "rating": 4
+      },
+      { 
+        "name": "AI & Automation",
+        "nameEs": "IA y Automatización",
+        "icon": "/images/home/education-skill/ia-icon3.png", 
+        "rating": 4 
+      }
+    ]
+  },
+  "contactLinks": {
+    "socialLinks": [
+      {
+        "title": "",
+        "href": "/"
+      },
+      {
+        "title": "",
+        "href": "/"
+      },
+      {
+        "title": "LinkedIn",
+        "href": "https://www.linkedin.com/in/sebasti%C3%A1n-barona-alzate/"
+      }
+    ],
+    "contactInfo": [
+      {
+        "type": "email",
+        "label": "sebasbarona@gmail.com",
+        "link": "mailto:sebasbarona@gmail.com"
+      },
+      {
+        "type": "phone",
+        "label": "+57 320 6416169",
+        "link": "tel:+573206416169"
+      }
+    ]
+  }
+}

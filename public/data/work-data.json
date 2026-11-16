@@ -2,6 +2,11 @@
   "workData": [
     {
       "id": "saas-crm",
+      "links": {
+        "demo": "https://example.com/saas-crm/demo",
+        "architecture": "https://example.com/saas-crm/architecture",
+        "code": "https://example.com/saas-crm/code"
+      },
       "image": "/images/work/crm-es.jpg",
       "localizedImages": {
         "en": "/images/work/crm-en.jpg",

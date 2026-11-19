@@ -89,4 +89,5 @@ export type Project = {
 
 export type FormSubmitResponse = {
   success: boolean | "true" | "false";
+  message?: string;
 };

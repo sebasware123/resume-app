@@ -25,20 +25,24 @@ const Contact = ({ contactData }: { contactData: ContactLinksData }) => {
     setSubmitError("");
 
     try {
-      const response = await fetch("https://formsubmit.co/ajax/sebasbarona@gmail.com", {
+      const response = await fetch("https://formsubmit.co/ajax/36fdc15c636f4ba8b0d0e72683c976cf", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
           Accept: "application/json",
         },
-        body: JSON.stringify(formData),
+        body: JSON.stringify({
+          ...formData,
+          _replyto: formData.email,
+          _subject: `Portfolio contact from ${formData.name}`,
+          _url: window.location.href,
+        }),
       });
 
-      if (!response.ok) throw new Error(t("sendError"));
-
-      const data = (await response.json()) as FormSubmitResponse;
-      if (data.success !== "true" && data.success !== true) {
-        throw new Error(t("sendError"));
+      const data = (await response.json().catch(() => null)) as FormSubmitResponse | null;
+      if (!response.ok) throw new Error(data?.message || t("sendError"));
+      if (data?.success !== "true" && data?.success !== true) {
+        throw new Error(data?.message || t("sendError"));
       }
 
       setSubmitted(true);

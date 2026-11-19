@@ -151,6 +151,16 @@ const LatestWork = ({ workData }: { workData: Project[] }) => {
                               ))}
                             </div>
                           )}
+                          {value.id === "saas-crm" && (
+                            <p className="mt-1 flex gap-2 rounded-lg border border-amber-200 bg-amber-50 px-3 py-2 text-xs leading-5 text-amber-950">
+                              <span aria-hidden="true" className="font-bold">ℹ</span>
+                              <span>
+                                {locale === "es"
+                                  ? "Nota: el backend está alojado en Render y puede entrar en reposo cuando no recibe tráfico. La primera solicitud puede tardar unos minutos mientras se reactiva."
+                                  : "Note: the backend is hosted on Render and may go idle when there is no traffic. The first request can take a few minutes while it wakes up."}
+                              </span>
+                            </p>
+                          )}
                         </div>
                       ) : (
                         <p>{t("client")}: {value?.client}</p>

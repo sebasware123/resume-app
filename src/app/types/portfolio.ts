@@ -45,6 +45,13 @@ export type ProjectFeature = {
   description: string;
 };
 
+export type ProjectTechnology = {
+  name: string;
+  nameEn?: string;
+  icon?: string;
+  symbol?: string;
+};
+
 export type ProjectLinks = {
   demo: string;
   architecture: string;
@@ -63,6 +70,7 @@ export type Project = {
   title: string;
   description?: string;
   features?: ProjectFeature[];
+  technologies?: ProjectTechnology[];
   links?: ProjectLinks;
   client?: string;
   translations?: {

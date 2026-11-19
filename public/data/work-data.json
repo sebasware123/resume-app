@@ -14,8 +14,16 @@
         "en": "/images/work/crm-en.jpg",
         "es": "/images/work/crm-es.jpg"
       },
-      "title": "Sistema CRM SaaS (Full-Stack)",
-      "description": "Solución diseñada para centralizar operaciones comerciales mediante una arquitectura desacoplada y de baja latencia.",
+      "title": "CRM SaaS Full-Stack con Asistente de IA",
+      "description": "CRM SaaS full-stack con asistente de IA integrado para agilizar las operaciones comerciales, respaldado por una arquitectura desacoplada y de baja latencia.",
+      "technologies": [
+        { "name": "Go", "icon": "/images/home/education-skill/Golang.png" },
+        { "name": "Next.js", "icon": "/images/home/education-skill/nextjs-icon.png" },
+        { "name": "Asistente IA", "nameEn": "AI assistant", "icon": "/images/home/education-skill/ia-icon3.png" },
+        { "name": "PostgreSQL", "symbol": "PG" },
+        { "name": "GitHub", "symbol": "github" },
+        { "name": "Diseño responsive", "nameEn": "Responsive design", "symbol": "responsive" }
+      ],
       "features": [
         {
           "title": "Frontend (Next.js)",
@@ -32,8 +40,8 @@
       ],
       "translations": {
         "en": {
-          "title": "Full-Stack SaaS CRM System",
-          "description": "A full-stack solution that centralizes business operations through a decoupled, low-latency architecture.",
+          "title": "Full-Stack SaaS CRM with AI Assistant",
+          "description": "A full-stack SaaS CRM with an integrated AI assistant to streamline business operations, built on a decoupled, low-latency architecture.",
           "features": [
             { "title": "Frontend (Next.js)", "description": "Responsive interface with protected login routes and an interactive metrics dashboard." },
             { "title": "Backend (Go)", "description": "High-performance API for authentication, business logic, and user management." },
@@ -41,8 +49,8 @@
           ]
         },
         "es": {
-          "title": "Sistema CRM SaaS (Full-Stack)",
-          "description": "Solución diseñada para centralizar las operaciones comerciales mediante una arquitectura desacoplada y de baja latencia.",
+          "title": "CRM SaaS Full-Stack con Asistente de IA",
+          "description": "CRM SaaS full-stack con asistente de IA integrado para agilizar las operaciones comerciales, respaldado por una arquitectura desacoplada y de baja latencia.",
           "features": [
             { "title": "Frontend (Next.js)", "description": "Interfaz responsiva con rutas protegidas para el inicio de sesión y un panel de control interactivo con métricas." },
             { "title": "Backend (Go)", "description": "API de alto rendimiento para autenticación, lógica de negocio y gestión de usuarios." },

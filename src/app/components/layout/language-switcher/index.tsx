@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import Link from "next/link";
 import { useLanguage } from "@/app/language";
 
 const languages = [
@@ -21,7 +20,7 @@ const LanguageSwitcher = () => {
           aria-label={t("selectLanguage")}
         >
           {languages.map(({ code, label }) => (
-            <Link
+            <a
               key={code}
               href={code === "es" ? "/es/" : "/"}
               onClick={() => setMenuOpen(false)}
@@ -36,7 +35,7 @@ const LanguageSwitcher = () => {
                   ✓
                 </span>
               )}
-            </Link>
+            </a>
           ))}
       </div>
       <button

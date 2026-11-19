@@ -49,6 +49,8 @@ export type ProjectLinks = {
   demo: string;
   architecture: string;
   code: string;
+  codeFront?: string;
+  codeBack?: string;
 };
 
 export type Project = {

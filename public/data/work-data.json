@@ -3,9 +3,11 @@
     {
       "id": "saas-crm",
       "links": {
-        "demo": "https://example.com/saas-crm/demo",
-        "architecture": "https://example.com/saas-crm/architecture",
-        "code": "https://example.com/saas-crm/code"
+        "demo": "https://crm-sebastian.vercel.app/login",
+        "architecture": "",
+        "code": "https://github.com/sebasware123/crm-backend",
+        "codeBack": "https://github.com/sebasware123/crm-backend",
+        "codeFront": "https://github.com/sebasware123/crm-frontend"
       },
       "image": "/images/work/crm-es.jpg",
       "localizedImages": {

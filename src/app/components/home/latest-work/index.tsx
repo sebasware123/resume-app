@@ -26,7 +26,10 @@ const LatestWork = ({ workData }: { workData: Project[] }) => {
                   ? [
                       { label: t("liveDemo"), url: value.links.demo },
                       { label: t("architecture"), url: value.links.architecture },
-                      { label: t("code"), url: value.links.code },
+                      { label: value.links.codeBack ? "Code back" : t("code"), url: value.links.codeBack ?? value.links.code },
+                      ...(value.links.codeFront
+                        ? [{ label: "Code front", url: value.links.codeFront }]
+                        : []),
                     ].filter((link) => link.url)
                   : [];
                 return (

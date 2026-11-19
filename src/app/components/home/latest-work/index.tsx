@@ -188,9 +188,9 @@ const LatestWork = ({ workData }: { workData: Project[] }) => {
                 {architectureContent.sections.map((section) => (
                   <section key={section.title}>
                     <h3 className="mb-2 text-lg font-semibold text-black">{section.title}</h3>
-                    {"paragraphs" in section && <div className="space-y-3 text-sm leading-6 text-secondary">{section.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}</div>}
-                    {"items" in section && <ul className="list-disc space-y-2 pl-5 text-sm leading-6 text-secondary">{section.items.map((item) => <li key={item}>{item}</li>)}</ul>}
-                    {"flow" in section && <p className="overflow-x-auto rounded-lg bg-softGray px-4 py-3 text-sm font-medium text-black">{section.flow}</p>}
+                    {section.paragraphs && <div className="space-y-3 text-sm leading-6 text-secondary">{section.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}</div>}
+                    {section.items && <ul className="list-disc space-y-2 pl-5 text-sm leading-6 text-secondary">{section.items.map((item) => <li key={item}>{item}</li>)}</ul>}
+                    {section.flow && <p className="overflow-x-auto rounded-lg bg-softGray px-4 py-3 text-sm font-medium text-black">{section.flow}</p>}
                   </section>
                 ))}
               </div>

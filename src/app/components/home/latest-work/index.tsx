@@ -102,6 +102,16 @@ const LatestWork = ({ workData }: { workData: Project[] }) => {
                                 <div key={technology.name} className="flex items-center gap-2 rounded-full bg-white px-3 py-2 text-xs font-medium text-black shadow-sm">
                                   {technology.icon ? (
                                     <Image src={getImgPath(technology.icon)} alt="" width={20} height={20} className="h-5 w-5 object-contain" />
+                                  ) : technology.symbol === "shopify" ? (
+                                    <svg aria-hidden="true" viewBox="0 0 24 24" className="h-5 w-5">
+                                      <path fill="#95BF47" d="M5.2 7.2 6.4 21h11.2l1.2-13.8-3.2-.8-1.3-2.1c-.4-.6-1.1-.9-1.8-.9h-.9c-.7 0-1.4.4-1.8 1L8.7 6.5l-3.5.7Zm6.1-2.1c.2-.3.6-.5 1-.5h.2c.4 0 .8.2 1 .6l.8 1.3-4 .8 1-2.2Z" />
+                                      <path fill="#fff" d="M14.7 10.1c-.4-.2-.8-.3-1.3-.3-.8 0-1.2.4-1.2.8 0 .5.5.7 1.2 1 1 .4 1.6.9 1.6 1.8 0 1.1-.9 1.9-2.3 1.9-.7 0-1.4-.2-1.8-.5l.3-1.1c.4.3 1 .5 1.5.5.5 0 .8-.2.8-.6s-.3-.6-1-.9c-1-.4-1.7-.9-1.7-1.9s.8-1.9 2.2-1.9c.6 0 1.1.1 1.5.3l.2.9Z" />
+                                    </svg>
+                                  ) : technology.symbol === "payments" ? (
+                                    <svg aria-hidden="true" viewBox="0 0 24 24" className="h-5 w-5 fill-none stroke-primary" strokeWidth="1.8">
+                                      <rect x="2.5" y="4.5" width="19" height="15" rx="2" />
+                                      <path d="M2.5 9h19M6 15h4" strokeLinecap="round" />
+                                    </svg>
                                   ) : technology.symbol === "github" ? (
                                     <svg aria-hidden="true" viewBox="0 0 24 24" className="h-5 w-5 fill-black">
                                       <path d="M12 .9a11.1 11.1 0 0 0-3.51 21.63c.55.1.76-.24.76-.54v-2.08c-3.1.67-3.76-1.32-3.76-1.32-.5-1.28-1.23-1.62-1.23-1.62-1.01-.69.08-.68.08-.68 1.12.08 1.71 1.15 1.71 1.15 1 .1.73 2.55 4.07 1.81.1-.72.4-1.2.7-1.48-2.48-.28-5.09-1.24-5.09-5.52 0-1.22.44-2.22 1.15-3-.12-.28-.5-1.42.11-2.96 0 0 .94-.3 3.05 1.15a10.6 10.6 0 0 1 5.55 0c2.11-1.45 3.05-1.15 3.05-1.15.61 1.54.23 2.68.11 2.96.72.78 1.15 1.78 1.15 3 0 4.29-2.62 5.24-5.11 5.51.4.35.75 1.03.75 2.08v3.15c0 .3.2.65.77.54A11.1 11.1 0 0 0 12 .9Z" />

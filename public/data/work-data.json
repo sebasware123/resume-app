@@ -59,5 +59,50 @@
         }
       }
     }
+    ,
+    {
+      "id": "joyeria-buena-vida",
+      "links": {
+        "demo": "https://joyeriabuenavida.com",
+        "architecture": "",
+        "code": ""
+      },
+      "image": "/images/work/tiendashopify.png",
+      "title": "Tienda Shopify para Joyería Buena Vida",
+      "description": "Tienda en línea de Joyería Buena Vida, desarrollada en Shopify para presentar sus productos y facilitar las compras en línea.",
+      "technologies": [
+        {
+          "name": "Shopify",
+          "symbol": "shopify"
+        },
+        {
+          "name": "E-commerce",
+          "nameEn": "E-commerce",
+          "symbol": "EC"
+        },
+        {
+          "name": "Diseño responsive",
+          "nameEn": "Responsive design",
+          "symbol": "responsive"
+        },
+        {
+          "name": "Pasarela de pagos",
+          "nameEn": "Payment gateway",
+          "symbol": "payments"
+        }
+      ],
+      "translations": {
+        "en": {
+          "title": "Shopify Store for Joyería Buena Vida",
+          "description": "Online store for Joyería Buena Vida, built with Shopify to showcase its products and make online shopping easy.",
+          "features": []
+        },
+        "es": {
+          "title": "Tienda Shopify para Joyería Buena Vida",
+          "description": "Tienda en línea de Joyería Buena Vida, desarrollada en Shopify para presentar sus productos y facilitar las compras en línea.",
+          "features": []
+        }
+      }
+    }
   ]
 }

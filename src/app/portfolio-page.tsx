@@ -13,10 +13,10 @@ export default function PortfolioPage() {
     <main>
       <HeroSection />
       <ContactBar contactBarData={pageData.contactBar} />
+      <LatestWork workData={workData.workData} />
       <AboutMe />
       <ExperienceSec />
       <EducationSkills educationData={pageData.educationData} />
-      <LatestWork workData={workData.workData} />
       <Contact contactData={pageData.contactLinks} />
     </main>
   );
